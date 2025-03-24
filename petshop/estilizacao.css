@@ -1,0 +1,190 @@
+body{
+    overflow-x: hidden ;
+}
+
+div{
+    font-family: sans-serif;
+    
+}
+
+.banner{
+    background-image: url('img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    padding: 20px 5px;
+
+}
+.slogan{
+    padding-left: 80px;
+    max-width:250px;
+    color: #3c184e;
+    
+}
+.slogan_display{
+    display: flex;
+}
+.slogan_logo{
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.slogan_img{
+    width: 30px;
+    margin: 0 5px 5px 0;
+    height: 30px; 
+}
+.banner_p{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.chamada_banner{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.chamada_banner_titulo{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-weight: 800;
+}
+.chamada_banner_botao{
+    width: 200px;
+    padding: 20px 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.chamada_banner_botao a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.chamada_banner_botao img{
+    width: 20px;
+}
+
+.servicos{
+    width: 100%;
+    padding: 20px 5px;
+}
+
+h2{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.servicos_lista{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+    font-size: 20px;   
+}
+ul, li{
+    list-style-type: square;
+    margin:0 0 20px 0;
+    
+}
+span{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.img_servicos {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    
+}
+.img_servicos img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.faixa_redes{
+    padding: 20px 5px;
+    background-color: #3c184e;
+    text-align: center;
+    color: #ffffff;
+}
+
+.faixa_redes p{
+    max-width: 800px;
+    margin: 20px auto 40px auto;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.faixa_redes img{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin:  0 20px;
+}
+
+.marcas{
+    width: 100%;
+    padding: 20px 5px;
+}
+
+h2{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.imagens_marcas{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagens_marcas img{
+    width: 148px;
+    height: 148px;
+    margin:  0 15px;
+}
+
+.onde_estamos{
+    width: 100%;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.onde_estamos p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+}
+
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+    color: #ffffff ;
+    font-size: 12px;
+    text-align: center;
+}
